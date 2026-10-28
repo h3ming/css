@@ -9,8 +9,6 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
-/*   align-content: center; */
-/*   position: relative; */
 }
 
 .paper {
@@ -34,11 +32,28 @@ body {
 }
 
 .sticks-box {
-  background: red;
+/*   background: red; */
   display: flex;
   position: relative;
   height: 55%;
   width: 15%;
+}
+
+.stick {
+  position: relative;
+  background: #faa073;
+  height: 100%;
+  width: 100%;
+}
+
+#stick1 {
+  clip-path: polygon(58% 0, 66% 0, 35% 100%, 20% 100%);
+  position: absolute;
+}
+
+#stick2 {
+  clip-path: polygon(38% 0, 46% 0, 85% 100%, 70% 100%);
+  position: absolute;
 }
 
 .circle-box {
@@ -92,14 +107,13 @@ body {
 }
 
 .lines-box {
-  background: purple;
+/*   background: purple; */
   position: absolute;
-/*   right: 50%; */
-  left: 14.5%;
+  left: 15%;
   top: 30%; 
   height: 25%;
   width: 32%;
-  z-index: -1;
+  z-index: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -108,7 +122,7 @@ body {
   position: relative;
   height: 100%;
   background: #293b8a;
-  width: 20%;
+  width: 4%;
 }
 
 .text-box {
@@ -131,6 +145,7 @@ body {
   align-items: center; 
   justify-content: center; 
   background-color: transparent;
+/*   font-family: "Ma Shan Zheng"; */
 }
 
 #letter2 {
@@ -144,9 +159,57 @@ body {
 
 .mako-box {
   position: absolute;
-  background: green;
+/*   background: green; */
   top: 39%;
   left: 67.5%;
   height: 16%;
   width: 32.5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mako {
+  position: relative;
+  width: 50%;
+  height: 45%;
+  background: #293b8a;
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+  border-radius:
+}
+
+#mako1{
+  position: relative;
+  left: 4%;
+}
+
+#mako2{
+  position: relative;
+  left: -4%;
+}
+
+.fish-box {
+  position: absolute;
+  background: green;
+  height: 45%;
+  width: 67.5%;
+  top: 55%;
+}
+
+.sushi-box {
+  position: absolute;
+  background: blue;
+  top: 55%;
+  left: 67.5%;
+  height: 30%;
+  width: 33%;
+}
+
+.grid-box {
+  position: absolute;
+  background: purple;
+  left: 67.5%;
+  top: 85%;
+  height: 15%;
+  width: 33%;
 }
