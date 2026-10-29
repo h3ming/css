@@ -266,7 +266,9 @@ body {
 }
 
 #fish2 {
-  transform: scale(-1, 1);
+  transform: scaleX(-1);
+  position: relative;
+  left: -2%;
 }
 
 .sushi-box {
