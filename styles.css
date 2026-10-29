@@ -38,6 +38,7 @@ body {
   position: relative;
   height: 55%;
   width: 15%;
+  left: -1%;
 }
 
 .stick {
@@ -81,19 +82,20 @@ body {
   top: 2%;
   aspect-ratio: 1;
   height: 25%;
+  left: -2%;
 }
 
 .circle {
   background: #293b8a;
   width: 100%;
   height: 100%;
-  clip-path: circle(45%);
+  clip-path: circle(48%);
   padding-left: 0px;
 }
 
 .squiggle-box {
 /*   background: red; */
-  clip-path: circle(43%);
+  clip-path: circle(45%);
   position: absolute;
   width: 90%;
   height: 90%;
