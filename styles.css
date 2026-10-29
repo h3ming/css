@@ -225,6 +225,7 @@ body {
 }
 
 #mako1{
+  
   position: relative;
   left: 4%;
 }
@@ -251,6 +252,7 @@ body {
   height: 45%;
   width: 68.5%;
   top: 55%;
+  left: 2%;
 /*   display: flex; */
 }
 
