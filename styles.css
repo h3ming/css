@@ -251,9 +251,9 @@ body {
 .fishes-box {
   position: absolute;
 /*   background: green; */
-  height: 45%;
+/*   height: 45%; */
   width: 68.5%;
-  top: 55%;
+  top: 57%;
   left: 2%;
 /*   display: flex; */
 }
