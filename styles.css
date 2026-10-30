@@ -120,13 +120,14 @@ body {
 
 .dots-box { 
   position: relative;
+  top: -0.5%;
   height: 39%;
 /*   aspect-ratio: 2/4; */
   width: 27.5%;
   /* tweaked https://www.magicpattern.design/tools/css-grid-backgrounds grid pattern below */
   opacity: 1;
-  background-image: radial-gradient(circle, #293b8a 30%, transparent 1px);
-  background-size: 9px 9.5px; 
+  background-image: radial-gradient(circle, #293b8a 37%, transparent 1px);
+  background-size: 9% 5%; 
 }
 
 .ellipse-box{
