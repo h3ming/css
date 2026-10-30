@@ -182,7 +182,8 @@ body {
   width: 20%;
   
   color: #fbf9f5;
-  font-size: 3.5em;
+/*   font-size: 3.5rem; */
+  font-size: 350%;
 }
 
 .letter {
@@ -272,7 +273,7 @@ body {
 #fish2 {
   transform: scaleX(-1);
   position: relative;
-  left: -2%;
+  left: -3%;
 }
 
 .sushi-box {
