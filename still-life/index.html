@@ -8,6 +8,7 @@
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    
   }
 
   .frame {
@@ -15,11 +16,32 @@
     width: 500px;
     height: 500px;
     border: 1px dashed;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 500px;
+    opacity: 0.3;
+    position: absolute;
+    left: -10px;
   }
 
 </style>
 
+<div class="reference">
+  
+</div>
 
 <div class="frame">
   <!-- add your elements here -->
+  <img src="reference.JPG" alt="my ref image">
+  <div class="moka-box"></div>
+  <div class="bust-box">
+    <div class="bust" id="bust-front"></div>
+    <div class="bust" id="bust-back"></div>
+  </div>
+  <div class="lcups-box"></div>
+    <div class="cup" id="topcup"></div>
+    <div class="cup" id="bottomcup"></div>
+  <div class="tcup-box"></div>
 </div>
